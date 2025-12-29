@@ -1,0 +1,1 @@
+# artha-app-privacy
