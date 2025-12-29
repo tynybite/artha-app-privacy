@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Artha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+            color: #e0e0e0;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.05) 100%);
+            border-radius: 24px;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 32px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        .subtitle {
+            color: #a0a0a0;
+            font-size: 1rem;
+        }
+
+        .last-updated {
+            color: #6366f1;
+            font-size: 0.875rem;
+            margin-top: 8px;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 24px;
+            backdrop-filter: blur(10px);
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 18px;
+        }
+
+        .section-icon {
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(139, 92, 246, 0.1) 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        p {
+            color: #b0b0b0;
+            margin-bottom: 14px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            color: #b0b0b0;
+            padding: 8px 0;
+            padding-left: 24px;
+            position: relative;
+        }
+
+        li::before {
+            content: "•";
+            color: #6366f1;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        ol {
+            padding-left: 24px;
+        }
+
+        ol li {
+            padding-left: 8px;
+        }
+
+        ol li::before {
+            display: none;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(34, 197, 94, 0.1) 0%, rgba(16, 185, 129, 0.05) 100%);
+            border: 1px solid rgba(34, 197, 94, 0.2);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .highlight-box.warning {
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, rgba(220, 38, 38, 0.05) 100%);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+        }
+
+        .contact-section {
+            text-align: center;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.05) 100%);
+            border-radius: 16px;
+            padding: 40px;
+            margin-top: 40px;
+        }
+
+        .contact-section h3 {
+            color: #ffffff;
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        .contact-email {
+            color: #6366f1;
+            font-size: 1.125rem;
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .contact-email:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #666;
+            font-size: 0.875rem;
+        }
+
+        footer a {
+            color: #6366f1;
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            .section {
+                padding: 20px;
+            }
+
+            header {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🛡️</div>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">Your Privacy Matters to Us</p>
+            <p class="last-updated">Last updated: December 2025</p>
+        </header>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">ℹ️</div>
+                <h2>Overview</h2>
+            </div>
+            <p>Artha ("we", "our", or "the app") is committed to protecting your privacy. This Privacy Policy explains
+                how we collect, use, and safeguard your information when you use our personal finance management
+                application.</p>
+            <p><strong style="color: #ffffff;">Our core principle is simple: Your financial data belongs to
+                    you.</strong> We've built Artha with a privacy-first, local-first architecture.</p>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">📦</div>
+                <h2>Data Collection</h2>
+            </div>
+            <p>We collect only the minimum data necessary to provide our services:</p>
+            <ul>
+                <li><strong style="color: #fff;">Account Information:</strong> Email address for authentication</li>
+                <li><strong style="color: #fff;">Financial Data:</strong> Transactions, categories, goals, budgets
+                    (stored locally on your device)</li>
+                <li><strong style="color: #fff;">Preferences:</strong> App settings, currency, theme choices</li>
+                <li><strong style="color: #fff;">Device Info:</strong> Basic device identifiers for crash reporting
+                    (optional)</li>
+            </ul>
+            <div class="highlight-box">
+                <p style="margin: 0;"><strong style="color: #22c55e;">✓ Local-First:</strong> All your financial data is
+                    stored locally on your device by default. We do NOT have access to your transaction data unless you
+                    explicitly enable cloud backup.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">🔒</div>
+                <h2>Data Security</h2>
+            </div>
+            <p>We implement industry-standard security measures:</p>
+            <ul>
+                <li><strong style="color: #fff;">AES-256 Encryption:</strong> All sensitive data is encrypted at rest
+                </li>
+                <li><strong style="color: #fff;">Biometric Authentication:</strong> Fingerprint and Face ID support</li>
+                <li><strong style="color: #fff;">No Cloud by Default:</strong> Data stays on your device</li>
+                <li><strong style="color: #fff;">End-to-End Encryption:</strong> If you enable cloud backup</li>
+                <li><strong style="color: #fff;">SSL/TLS:</strong> All network communications are encrypted</li>
+                <li><strong style="color: #fff;">No Tracking:</strong> We don't use analytics on your financial data
+                </li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">🚫</div>
+                <h2>What We Don't Do</h2>
+            </div>
+            <ul>
+                <li>We do <strong style="color: #ef4444;">NOT</strong> sell your data to anyone</li>
+                <li>We do <strong style="color: #ef4444;">NOT</strong> share your financial data with third parties</li>
+                <li>We do <strong style="color: #ef4444;">NOT</strong> show personalized ads based on your finances</li>
+                <li>We do <strong style="color: #ef4444;">NOT</strong> track your spending for analytics purposes</li>
+                <li>We do <strong style="color: #ef4444;">NOT</strong> require cloud storage—your data stays local</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">👤</div>
+                <h2>Your Rights</h2>
+            </div>
+            <p>You have complete control over your data:</p>
+            <ul>
+                <li><strong style="color: #fff;">Access:</strong> View all your data anytime within the app</li>
+                <li><strong style="color: #fff;">Export:</strong> Download your data in CSV or JSON format</li>
+                <li><strong style="color: #fff;">Delete:</strong> Remove all your data permanently</li>
+                <li><strong style="color: #fff;">Portability:</strong> Transfer your data to another service</li>
+                <li><strong style="color: #fff;">Consent:</strong> Opt-in/out of optional features like backup</li>
+            </ul>
+            <p style="margin-top: 16px;">For GDPR/CCPA requests, contact us at <a href="mailto:privacy@artha.app"
+                    class="contact-email">privacy@artha.app</a></p>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">🗑️</div>
+                <h2>Account Deletion</h2>
+            </div>
+            <p>You can delete your account at any time from within the app:</p>
+            <ol>
+                <li>Go to <strong style="color: #fff;">Profile → Edit Profile → Delete Account</strong></li>
+                <li>Confirm your decision in the dialog</li>
+            </ol>
+            <div class="highlight-box warning">
+                <p style="margin-bottom: 12px;"><strong style="color: #ef4444;">When you delete your account:</strong>
+                </p>
+                <ul style="margin: 0;">
+                    <li>All local data is immediately deleted from your device</li>
+                    <li>Your authentication account is removed from our servers</li>
+                    <li>Any cloud backup data is deleted within 30 days</li>
+                    <li>This action is permanent and cannot be undone</li>
+                </ul>
+            </div>
+            <p>If you need assistance with account deletion, contact us at <a href="mailto:support@artha.app"
+                    class="contact-email">support@artha.app</a></p>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">☁️</div>
+                <h2>Cloud Backup (Optional)</h2>
+            </div>
+            <p>If you choose to enable cloud backup:</p>
+            <ul>
+                <li>Your data is encrypted before leaving your device</li>
+                <li>Only you have the decryption key</li>
+                <li>Backups are stored on secure servers</li>
+                <li>You can delete cloud backups anytime</li>
+                <li>Data is retained for 90 days after account deletion</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">👶</div>
+                <h2>Children's Privacy</h2>
+            </div>
+            <p>Artha is not intended for users under the age of 13. We do not knowingly collect information from
+                children under 13. If you believe we have collected such information, please contact us immediately.</p>
+        </section>
+
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">🔄</div>
+                <h2>Policy Updates</h2>
+            </div>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes
+                through the app or via email. Continued use of Artha after changes constitutes acceptance of the updated
+                policy.</p>
+        </section>
+
+        <div class="contact-section">
+            <h3>Questions about privacy?</h3>
+            <a href="mailto:privacy@artha.app" class="contact-email">privacy@artha.app</a>
+        </div>
+
+        <footer>
+            <p>© 2025 Artha. All rights reserved.</p>
+            <p style="margin-top: 8px;">
+                <a href="/">Home</a> ·
+                <a href="/terms">Terms of Service</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
